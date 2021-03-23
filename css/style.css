@@ -1,0 +1,1007 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+/* COMMON CSS END */
+
+/* ==============================================
+=================================================
+            INDEX PART START
+=================================================
+================================================== */
+
+/* back to top buttton start */
+.back_to_top i{
+    width: 40px;
+    height: 40px;
+    color: #f1f1f1;
+    background: #f1ad1a;
+    position: fixed;
+    right: 65px;
+    bottom: 16px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    z-index: 999;
+}
+/* back to top buttton end */
+
+/* =============================================
+            NAV BAR CSS START
+===================================================  */
+.Manu_con {
+    border-bottom: 1px solid #888888;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.Manu_con a {
+    color: #888888;
+    text-transform: uppercase;
+}
+
+.navbar {
+    background: #101010;
+    width: 100%;
+    height: 60px;
+}
+
+.manu_icon {
+    display: inline-block;
+    cursor: pointer;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+.manu_icon .one {
+    width: 25px;
+    height: 2px;
+    background: #999999;
+}
+
+.manu_icon .two {
+    width: 15px;
+    height: 2px;
+    background: #999999;
+    margin: 5px 0;
+}
+
+.manu_icon .three {
+    width: 20px;
+    height: 2px;
+    background: #999999;
+}
+
+.manu_item {
+	width: 465px;
+	height: 100vh;
+	position: fixed;
+	background: #101010;
+	margin-left: -366px;
+	text-align: center;
+	line-height: 50px;
+	text-transform: capitalize;
+	margin-top: 8px;
+	transform: translateX(206px);
+	-webkit-transform: translateX(206px);
+	-moz-transform: translateX(452px);
+	-ms-transform: translateX(206px);
+	-o-transform: translateX(206px);
+	transition: all .3s linear;
+	-webkit-transition: all .3s linear;
+	-moz-transition: all .3s linear;
+	-ms-transition: all .3s linear;
+	-o-transition: all .3s linear;
+	z-index: 999;
+	/*! opacity: 0; */
+}
+
+.slide_bar {
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    opacity: 1;
+}
+
+.manu_item img {
+    width: 100px;
+    height: 100px;
+    border-radius: -50%;
+    -webkit-border-radius: -50%;
+    -moz-border-radius: -50%;
+    -ms-border-radius: -50%;
+    -o-border-radius: -50%;
+}
+
+.manu_item p {
+    text-transform: capitalize;
+    color: #888888;
+}
+
+.manu_item .manu_list li a {
+    color: #888888;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+.manu_item .manu_list li:hover a {
+    color: #f1ad1a;
+    padding-left: 10px;
+
+}
+
+.icons {
+    text-align: center;
+    display: inline-block;
+}
+
+.icons ul {
+    display: flex;
+}
+
+.icons ul li {
+    margin-right: 10px;
+}
+
+.skills_part h3 {
+    margin-top: 30PX;
+    color: #f1ad1a;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.skills_part h6 {
+    margin-top: 30PX;
+    color: #f1ad1a;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.skills_part .proggress {
+    background: #f1ad1a !important;
+    height: 2px !important;
+}
+
+.skills_part .progressbar {
+    height: 2px !important;
+    background: #999999 !important;
+}
+
+.icons ul li a {
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+.icons ul li:hover a {
+    color: #f1ad1a;
+}
+
+.slide_bar .manu_icon .three {
+    display: none;
+}
+
+/* ================================================
+            NAV BAR CSS END
+=================================================== */
+
+
+/* =============================================
+           BANNER PART CSS START
+===================================================  */
+#banner_part {
+    background: #101010;
+    /* border-bottom: 1px solid #888888; */
+}
+
+.banner_text {
+    padding: 180px 0;
+    padding-left: 160px;
+}
+
+.banner_text h3 {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.banner_text h3 span {
+    color: #f1ad1a;
+    display: inline-block;
+
+}
+
+.banner_text h3 span {
+    color: #f1ad1a;
+    display: inline-block;
+
+}
+
+.banner_text p {
+    text-transform: capitalize;
+    color: #f1f1f1;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.banner_text h1 {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    text-transform: uppercase;
+    padding: 6px 0;
+    letter-spacing: 4xp;
+}
+
+.banner_text .b {
+    color: #f1ad1a;
+    display: inline-block;
+    transform: rotate(20deg);
+    -webkit-transform: rotate(40deg);
+    -moz-transform: rotate(-55deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    padding-top: 6px;
+}
+
+.banner_text a {
+    color: #ffffff;
+    position: relative;
+    margin-left: 60px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    background: #f1ad1a;
+    text-transform: uppercase;
+    margin-top: 15px;
+    border-top-right-radius: 5px;
+    padding: 5px 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+.banner_text a:hover {
+    background: #f1ad1a;
+}
+
+.banner_text a::before {
+    position: absolute;
+    content: '';
+    top: 16px;
+    left: -58px;
+    width: 55px;
+    height: 1px;
+    background: #f1ad1a;
+
+}
+
+#banner_part ul li button {
+    font-size: 0;
+    width: 4px;
+    height: 4px;
+    background: #999999;
+    border: 0;
+
+}
+
+#banner_part ul {
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    display: flex;
+}
+
+#banner_part ul li {
+    margin-right: 7px;
+}
+
+#banner_part .slick-dots .slick-active button {
+    background: #f1ad1a !important;
+    width: 7px;
+    height: 7px;
+}
+
+/* ================================================
+           BANNER PART CSS END
+=================================================== *
+
+/* =============================================
+            ABOUT CSS START
+===================================================  */
+#about_part {
+    background: #2e2e2e;
+    padding: 60px 0;
+}
+
+.about_text h2 {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.about_text h2::before {
+    position: absolute;
+    content: '';
+    left: 226px;
+    bottom: -10px;
+    width: 180px;
+    height: 2px;
+    background: #f1ad1a;
+}
+
+.about_text h2 span {
+    display: inline-block;
+    color: #f1ad1a;
+    transform: rotate(-40deg);
+    -webkit-transform: rotate(-40deg);
+    -moz-transform: rotate(-40deg);
+    -ms-transform: rotate(-40deg);
+    -o-transform: rotate(-40deg);
+}
+
+.about_text_inner h5 {
+    margin-top: 30PX;
+    color: #f1ad1a;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.about_text_inner p {
+    text-transform: capitalize;
+    color: #f1f1f1;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.about_text_inner a {
+    color: #ffffff;
+    position: relative;
+    margin-left: 60px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 7px;
+    border-top-right-radius: 5px;
+    padding: 5px 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+.about_text_inner a:hover {
+    background: #f1ad1a;
+}
+
+.about_text_inner a::before {
+    position: absolute;
+    content: '';
+    top: 16px;
+    left: -58px;
+    width: 55px;
+    height: 1px;
+    background: #f1ad1a;
+}
+
+.counter_jd {
+    margin-top: 50px;
+}
+
+.counnter_item h6 {
+    padding-top: 15px;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.counnter_item h6 span {
+    color: #f1ad1a;
+    font-size: 30px;
+    font-weight: 600;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* ================================================
+            ABOUT CSS END
+=================================================== *
+
+
+
+/* =============================================
+            MY SKILL CSS START
+===================================================  */
+.skill_inner {
+    padding-top: 60px;
+}
+
+.skill_text h6 {
+    letter-spacing: 4px;
+    color: #f1ad1a;
+}
+
+.skill_text h2 {
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: inherit;
+    margin: 15px 0;
+    color: #f1f1f1;
+}
+
+.skill_text p {
+    font-weight: 300;
+    font-size: 16px;
+    color: #999999;
+}
+
+/* ================================================
+            MY SKILL CSS END
+=================================================== *
+
+
+/* =============================================
+            SERVICES CSS  START
+===================================================  */
+#services_part {
+    padding: 42px 0 60px 0px;
+    background: #f1ad1a;
+}
+
+#services_part h3 {
+    font-size: 72px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-shadow: 0 8px rgba(0, 0, 0, 0.02);
+    font-family: "Roboto Condensed", sans-serif;
+    text-transform: capitalize;
+}
+
+.services_box {
+    padding: 42px 30px;
+    margin-top: 30px;
+    transition: all 0.5s ease;
+    background-color: #ffffff;
+    border-radius: 8px;
+    text-align: left;
+    box-shadow: rgba(39, 39, 38, 0.301);
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+.services_box:hover {
+    padding-top: 20px;
+}
+
+.services_box i {
+    color: #f1ad1a;
+    font-size: 32px;
+    margin-bottom: 18px;
+}
+
+.services_box h4 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #171717;
+    margin-bottom: 18px;
+    text-transform: capitalize;
+}
+
+.services_box p {
+    font-weight: 300;
+    color: #171717;
+    font-size: 16px;
+}
+
+/* ================================================
+            SERVICES CSS  END
+=================================================== *
+
+/* =============================================
+           PROTFOLIO CSS START
+===================================================  */
+#portfolio_part {
+	padding: 57px 0 60px 0;
+	background: #2e2e2e;
+}
+
+.protfolio_text h6 {
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 8px;
+    margin-bottom: 6px;
+    color: #f1ad1a;
+}
+
+.protfolio_text h3 {
+    font-size: 72px;
+    font-weight: 700;
+    text-shadow: 0 8px rgba(0, 0, 0, 0.02);
+    text-transform: uppercase;
+    color: #f1f1f1;
+}
+
+.protfolio_text h3 span {
+    color: #f1ad1a;
+    margin-left: 30px;
+}
+
+.my_protfolio {
+    margin-top: 30px;
+    position: relative;
+}
+
+.my_protfolio img {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.my_protfolio .overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transition: all .5s linear;
+    -webkit-transition: all .5s linear;
+    -moz-transition: all .5s linear;
+    -ms-transition: all .5s linear;
+    -o-transition: all .5s linear;
+}
+
+.my_protfolio:hover .overlay {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.my_protfolio .overlay a  {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 60px;
+    height: 60px;
+    background: #f1ad1a;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    color: #f1f1f1;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+.protfolio_btn a {
+    color: #f1f1f1;
+    padding: 10px 50px;
+    background: #f1ad1a;
+    margin-top: 30px;
+    text-transform: full-width;
+    border-radius: 5px;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+.protfolio_btn a:hover {
+    background: #f1f1f1;
+    color: #f1ad1a;
+}
+
+/* ================================================
+           PROTFOLIO CSS END
+=================================================== *
+
+/* =============================================
+            TESTIMONIAL CSS START
+===================================================  */
+#testimonial_part {
+	padding: 55px 0;
+	background: #f8f8f8;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+	background-size: cover !important;
+	background-attachment: fixed !important;
+	box-shadow: inset 0 0 0 2000px rgba(9, 9, 9, 0.8) !important;
+}
+
+.testimonial_text h6 {
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 8px;
+    margin-bottom: 6px;
+    color: #f1ad1a;
+}
+
+.testimonial_text h3 {
+    font-size: 72px;
+    font-weight: 700;
+    text-shadow: 0 8px rgba(0, 0, 0, 0.02);
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.test_img img {
+    height: 375px;
+    margin-top: 30px;
+}
+
+.test_inner_text {
+    background: #f1ad1a;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 87%, 13% 90%, 9% 100%, 9% 89%, 0 89%, 0 0);
+    margin-top: 110px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.test_inner_text p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.test_inner_text .test_name {
+    margin-top: 15px !important;
+    font-size: 15px;
+    font-weight: 500;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+.test_inner_text .test_name span {
+    margin-top: 10px !important;
+}
+
+#testimonial_part ul li button {
+    font-size: 0;
+    height: 6px;
+    width: 6px;
+    background: #999999;
+    border: 0;
+    margin-right: 6px;
+}
+
+#testimonial_part ul {
+    position: absolute;
+    left: 38%;
+    bottom: 25%;
+    display: flex;
+    width: auto;
+}
+
+#testimonial_part ul li.slick-active button {
+    background: #f1ad1a;
+}
+
+.test_slider .slick-slide{
+    margin: 0 15px;
+}
+
+/* ================================================
+            TESTIMONIAL CSS END
+=================================================== *
+
+/* =============================================
+            CONTACT CSS START
+===================================================  */
+#contact_part {
+	padding: 56px 0 60px 0;
+	background: #2e2e2e;
+}
+
+.contact_heading h6 {
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 8px;
+    margin-bottom: 6px;
+    color: #f1ad1a;
+}
+
+.contact_heading h3 {
+    font-size: 72px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-shadow: 0 8px rgba(0, 0, 0, 0.02);
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+.contact_heading p {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    color: #f1ad1a;
+}
+
+.inner_form .form_text {
+    width: 320px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    margin-top: 30px;
+}
+ .form_text_part p{
+     font-weight: 400;
+     font-size: 16px;
+ }
+.form_part {
+    margin-top: 50px;
+}
+
+.form_icon {
+    position: relative;
+}
+
+.inner_form i {
+    position: absolute;
+    color: #6c757d;
+    left: 0px;
+    top: 0px;
+    font-size: 16px;
+    z-index: 999;
+}
+
+.inner_form::placeholder {
+    color: #6c757d;
+}
+
+.inner_form input[type="text"],
+.inner_form input[type="email"] {
+    padding-left: 49px;
+    background: #6c757d;
+    text-transform: uppercase;
+}
+
+.inner_form textarea {
+    width: 714px;
+    height: 130px;
+    border-radius: 20px;
+    border: 0;
+    margin-top: 30px;
+}
+
+.inner_form textarea[type="text"] {
+    background: #6c757d;
+    text-transform: uppercase;
+    padding-left: 49px;
+    padding-top: 15px;
+}
+
+#contact_part button {
+    width: 180px;
+    height: 45px;
+    border: 0;
+    border-radius: 20px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #f1ad1a;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    transition: all .4s linear;
+    -webkit-transition: all .4s linear;
+    -moz-transition: all .4s linear;
+    -ms-transition: all .4s linear;
+    -o-transition: all .4s linear;
+
+}
+
+#contact_part button:hover {
+    background: #6c757d;
+}
+
+.address_part {
+    margin-top: 50px;
+}
+
+.single_address {
+    margin-bottom: 20px;
+}
+
+.single_address h6 {
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.single_address i {
+    color: #f1ad1a;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.single_address small {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.social_icons {
+    margin-top: 40px;
+}
+
+.social_icons h6 {
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.social_icons ul {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 10px;
+}
+
+.social_icons ul li a {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 10px;
+    border: 1px solid #f1ad1a;
+    color: #f1ad1a;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+.social_icons ul li a:hover {
+    color: #ffffff;
+    background: #f1ad1a;
+}
+
+/* ================================================
+            CONATCT CSS END
+=================================================== */
+
+/* ================================================
+            FOOTER CSS START
+=================================================== */
+#footer_part {
+    padding: 30px;
+    background: #f8f8f8;
+}
+
+.footer_text p a {
+    color: #f1ad1a;
+}
+
+/* ================================================
+            FOOTER CSS END
+=================================================== */
+
+
+
+/* ==============================================
+=================================================
+            INDEX PART END
+=================================================
+================================================== */

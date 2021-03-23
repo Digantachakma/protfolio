@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+/* COMMON CSS END */
+
+/* ==============================================
+=================================================
+            INDEX PART START
+=================================================
+================================================== */
+
+/* =============================================
+            NAV BAR CSS START
+===================================================  */
+.Manu_con {
+    border-bottom: 1px solid #888888;
+}
+
+.Manu_con a {
+    color: #888888;
+    text-transform: uppercase;
+}
+
+.navbar {
+    background: #101010;
+    width: 100%;
+    height: 60px;
+}
+
+.manu_icon {
+    padding: 10px;
+    display: inline-block;
+    cursor: pointer;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+.manu_icon .one {
+    width: 25px;
+    height: 2px;
+    background: #888888;
+}
+
+.manu_icon .two {
+    width: 15px;
+    height: 2px;
+    background: #888888;
+    margin: 5px 0;
+}
+
+.manu_icon .three {
+    width: 20px;
+    height: 2px;
+    background: #888888;
+}
+
+.manu_item {
+    width: 206px;
+    height: 100vh;
+    position: fixed;
+    background: #101010;
+    margin-left: -100px;
+    text-align: center;
+    line-height: 50px;
+    text-transform: capitalize;
+    margin-top: 8px;
+    transform: translateX(206px);
+    -webkit-transform: translateX(206px);
+    -moz-transform: translateX(206px);
+    -ms-transform: translateX(206px);
+    -o-transform: translateX(206px);
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+.slide_bar {
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+}
+
+.manu_item img {
+    width: 100px;
+    height: 100px;
+    border-radius: -50%;
+    -webkit-border-radius: -50%;
+    -moz-border-radius: -50%;
+    -ms-border-radius: -50%;
+    -o-border-radius: -50%;
+}
+
+.manu_item p {
+    text-transform: capitalize;
+    color: #888888;
+}
+
+.manu_item ul li a {
+    color: #888888;
+}
+
+/* ================================================
+            NAV BAR CSS END
+=================================================== */
+
+
+/* =============================================
+           BANNER PART CSS START
+===================================================  */
+#banner_part {
+    background: #101010;
+    /* border-bottom: 1px solid #888888; */
+}
+
+.banner_text {
+    padding: 145px 0;
+    padding-left: 160px;
+}
+
+.banner_text h3 {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.banner_text h3 span {
+    color: #f1ad1a;
+    display: inline-block;
+
+}
+
+.banner_text h3 span {
+    color: #f1ad1a;
+    display: inline-block;
+
+}
+
+.banner_text p {
+    text-transform: capitalize;
+    color: #f1f1f1;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.banner_text h1 {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    text-transform: uppercase;
+    padding: 6px 0;
+}
+
+.banner_text .b {
+    color: #f1ad1a;
+    display: inline-block;
+    transform: rotate(20deg);
+    -webkit-transform: rotate(40deg);
+    -moz-transform: rotate(-55deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    padding-top: 6px;
+}
+
+.banner_text a {
+    color: #ffffff;
+    position: relative;
+    margin-left: 60px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 7px;
+    border-top-right-radius: 5px;
+    padding: 5px 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+.banner_text a:hover {
+    background: #f1ad1a;
+}
+
+.banner_text a::before {
+    position: absolute;
+    content: '';
+    top: 16px;
+    left: -58px;
+    width: 55px;
+    height: 1px;
+    background: #f1ad1a;
+
+}
+
+#banner_part ul li button {
+    font-size: 0;
+    width: 4px;
+    height: 4px;
+    background: #999999;
+    border: 0;
+
+}
+
+#banner_part ul {
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    display: flex;
+}
+
+#banner_part ul li {
+    margin-right: 7px;
+}
+
+#banner_part .slick-dots .slick-active button {
+    background: #f1ad1a !important;
+    width: 7px;
+    height: 7px;
+}
+
+/* ================================================
+           BANNER PART CSS END
+=================================================== *
+
+/* =============================================
+            ABOUT CSS START
+===================================================  */
+#about_part {
+    background: #2e2e2e;
+    padding-top: 80px;
+}
+
+.about_text h2 {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-weight: 50px;
+    position: relative;
+}
+
+.about_text h2::before {
+    position: absolute;
+    content: '';
+    left: 226px;
+    bottom: -10px;
+    width: 180px;
+    height: 2px;
+    background: #f1ad1a;
+}
+
+.about_text h2 span {
+    display: inline-block;
+    color: #f1ad1a;
+    transform: rotate(-40deg);
+    -webkit-transform: rotate(-40deg);
+    -moz-transform: rotate(-40deg);
+    -ms-transform: rotate(-40deg);
+    -o-transform: rotate(-40deg);
+}
+
+.about_text_inner h5 {
+    text-transform: capitalize;
+    color: #ffffff;
+    margin-top: 30PX;
+    color: #f1ad1a;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.about_text_inner p {
+    text-transform: capitalize;
+    color: #f1f1f1;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.about_text_inner a {
+    color: #ffffff;
+    position: relative;
+    margin-left: 60px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 7px;
+    border-top-right-radius: 5px;
+    padding: 5px 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+.about_text_inner a:hover {
+    background: #f1ad1a;
+}
+
+.about_text_inner a::before {
+    position: absolute;
+    content: '';
+    top: 16px;
+    left: -58px;
+    width: 55px;
+    height: 1px;
+    background: #f1ad1a;
+}
+
+/* ================================================
+            ABOUT CSS END
+=================================================== *
+
+
+
+/* =============================================
+            NAV BAR CSS START
+===================================================  */
+/* ================================================
+            NAV BAR CSS END
+=================================================== *
+
+
+
+
+
+
+
+
+
+/* ==============================================
+=================================================
+            INDEX PART END
+=================================================
+================================================== */
